@@ -1,0 +1,15 @@
+C:\Users\wwwbr\exemploFundamentos_dotnet\bin\Debug\net6.0\exemploFundamentos_dotnet.exe
+C:\Users\wwwbr\exemploFundamentos_dotnet\bin\Debug\net6.0\exemploFundamentos_dotnet.deps.json
+C:\Users\wwwbr\exemploFundamentos_dotnet\bin\Debug\net6.0\exemploFundamentos_dotnet.runtimeconfig.json
+C:\Users\wwwbr\exemploFundamentos_dotnet\bin\Debug\net6.0\exemploFundamentos_dotnet.dll
+C:\Users\wwwbr\exemploFundamentos_dotnet\bin\Debug\net6.0\exemploFundamentos_dotnet.pdb
+C:\Users\wwwbr\exemploFundamentos_dotnet\obj\Debug\net6.0\exemploFundamentos_dotnet.csproj.AssemblyReference.cache
+C:\Users\wwwbr\exemploFundamentos_dotnet\obj\Debug\net6.0\exemploFundamentos_dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wwwbr\exemploFundamentos_dotnet\obj\Debug\net6.0\exemploFundamentos_dotnet.AssemblyInfoInputs.cache
+C:\Users\wwwbr\exemploFundamentos_dotnet\obj\Debug\net6.0\exemploFundamentos_dotnet.AssemblyInfo.cs
+C:\Users\wwwbr\exemploFundamentos_dotnet\obj\Debug\net6.0\exemploFundamentos_dotnet.csproj.CoreCompileInputs.cache
+C:\Users\wwwbr\exemploFundamentos_dotnet\obj\Debug\net6.0\exemploFundamentos_dotnet.dll
+C:\Users\wwwbr\exemploFundamentos_dotnet\obj\Debug\net6.0\refint\exemploFundamentos_dotnet.dll
+C:\Users\wwwbr\exemploFundamentos_dotnet\obj\Debug\net6.0\exemploFundamentos_dotnet.pdb
+C:\Users\wwwbr\exemploFundamentos_dotnet\obj\Debug\net6.0\exemploFundamentos_dotnet.genruntimeconfig.cache
+C:\Users\wwwbr\exemploFundamentos_dotnet\obj\Debug\net6.0\ref\exemploFundamentos_dotnet.dll
