@@ -1,4 +1,39 @@
 ﻿using exemploFundamentos_dotnet.Models;
+
+Console.WriteLine("digite uma letras");
+    string letra = Console.ReadLine();
+
+    switch(letra) {
+        case"a":    
+        case"e": 
+        case"i":
+        case"o":
+        case"u":
+        Console.WriteLine("vogal");
+        break;
+
+        default: 
+        Console.WriteLine("não é vogal");
+        break;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // string apresentacao = "ola, bem vindo";
     // int quantidade = 1;
     // double altura = 1.80;
@@ -39,3 +74,16 @@ int.TryParse(d, out b);
 
 Console.WriteLine(b);
 Console.WriteLine("conversão realizada com sucesso");
+
+int quantidadeEstoque = 10;
+
+int quantidadeCompra = 4;
+
+if (quantidadeCompra == 0) {
+    Console.WriteLine("quantidade invalida");
+}
+else if (quantidadeEstoque >= quantidadeCompra) {
+    Console.WriteLine("venda realizada com sucesso");
+} else {
+    Console.WriteLine("Não temos a quantidade desejada em estoque");
+}
