@@ -26,4 +26,16 @@ int b = 10;
 
 int c = a + 5;
 
+int inteiro = 5;
+string d = inteiro.ToString();
 
+
+double f = 4 / (2 + 2);
+
+Console.WriteLine(a);
+
+
+int.TryParse(d, out b);
+
+Console.WriteLine(b);
+Console.WriteLine("conversão realizada com sucesso");
