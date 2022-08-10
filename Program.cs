@@ -1,5 +1,30 @@
 ﻿using exemploFundamentos_dotnet.Models;
 
+
+
+bool PresencaMinima = true;
+double media = 7.0;
+
+if(PresencaMinima && media >= 7) {
+    Console.WriteLine("aprovado");
+} else {
+    Console.WriteLine("reprovado");
+}
+
+bool MaiorDeIdade = true;
+bool AutorizacaoResponsavel = false;
+
+if (MaiorDeIdade || AutorizacaoResponsavel) {
+    Console.WriteLine("Entrada liberada");
+} else {
+    Console.WriteLine("Entrada não liberada");
+}
+
+
+
+
+
+
 Console.WriteLine("digite uma letras");
     string letra = Console.ReadLine();
 
