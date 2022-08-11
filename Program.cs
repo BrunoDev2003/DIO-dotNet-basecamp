@@ -1,5 +1,11 @@
 ﻿using exemploFundamentos_dotnet.Models;
 
+Calculadora calc = new Calculadora();
+
+calc.Seno(19);
+calc.Coseno(30);
+calc.Tangente(20);
+
 
 
 bool PresencaMinima = true;
