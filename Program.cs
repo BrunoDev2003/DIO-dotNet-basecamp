@@ -1,6 +1,44 @@
 ﻿using exemploFundamentos_dotnet.Models;
 
-Calculadora calc = new Calculadora();
+
+string opcao;
+bool exibirMenu = true;
+
+while (exibirMenu) {
+    Console.Clear();
+    Console.WriteLine("Digite a sua opcao");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscar cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar");
+
+    opcao = Console.ReadLine();
+
+    switch (opcao) {
+        case "1":
+            Console.WriteLine("Cadstro de cliente");
+            break;
+
+        case "2":
+            Console.WriteLine("Buscar cliente");
+            break;
+        
+        case "3":
+            Console.WriteLine("Apagar cliente");
+            break;
+
+        case "4":
+            Console.WriteLine("Encerrar");
+            exibirMenu = false;
+            break;
+
+        default:
+            Console.WriteLine("opção invalida!!");
+            break;
+    }
+}
+
+/*Calculadora calc = new Calculadora();
 
 calc.Seno(19);
 calc.Coseno(30);
@@ -118,3 +156,5 @@ else if (quantidadeEstoque >= quantidadeCompra) {
 } else {
     Console.WriteLine("Não temos a quantidade desejada em estoque");
 }
+
+*/
