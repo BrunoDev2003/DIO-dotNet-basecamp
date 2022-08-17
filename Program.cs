@@ -1,7 +1,18 @@
 ﻿using exemploFundamentos_dotnet.Models;
 
 
-string opcao;
+
+int[] ArrayInteiros = new int[3];
+
+ArrayInteiros[0] = 72;
+ArrayInteiros[1] = 73;
+ArrayInteiros[2] = 43;
+
+for (int i = 0; i < ArrayInteiros.Length; i++){
+    Console.WriteLine($"Posicao N {i} - {ArrayInteiros[i]}");
+}
+
+/*string opcao;
 bool exibirMenu = true;
 
 while (exibirMenu) {
@@ -37,6 +48,7 @@ while (exibirMenu) {
             break;
     }
 }
+*/
 
 /*Calculadora calc = new Calculadora();
 
