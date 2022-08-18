@@ -1,5 +1,23 @@
 ﻿using exemploFundamentos_dotnet.Models;
 
+List<string> listaString = new List<string>();
+
+listaString.Add("SP");
+listaString.Add("BH");
+listaString.Add("MG");
+
+for(int i = 0; i < listaString.Count; i++) {
+    Console.WriteLine($"Posicao N {i} - {listaString[i]}");
+
+}
+
+int contadorForEach = 0;
+foreach(String item in listaString) {
+    Console.WriteLine($"Posicao N {contadorForEach} - {item}");
+}
+
+
+
 
 
 int[] ArrayInteiros = new int[3];
@@ -8,10 +26,15 @@ ArrayInteiros[0] = 72;
 ArrayInteiros[1] = 73;
 ArrayInteiros[2] = 43;
 
+Array.Resize(ref ArrayInteiros, ArrayInteiros.Length * 2);
+
 Console.WriteLine("percorrendo com array com FOR");
 for(int contador = 0; contador < ArrayInteiros.Length; contador++) {
     Console.WriteLine($"Posição N {contador}  - {ArrayInteiros[contador]}");
 }
+
+int[] arrayInteirosDobrado = new int[ArrayInteiros.length * 2];
+Array.Copy(ArrayInteiros, arrayInteirosDobrado, ArrayInteiros.length);
 
 Console.WriteLine("percorrendo o array com FOREACH");
 
@@ -21,6 +44,8 @@ foreach(int valor in ArrayInteiros){
     contadorForeach++;
     Console.WriteLine(valor);
 }
+
+
 //for (int i = 0; i < ArrayInteiros.Length; i++){
 //    Console.WriteLine($"Posicao N {i} - {ArrayInteiros[i]}");
 //}
