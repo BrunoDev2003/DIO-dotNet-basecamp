@@ -8,9 +8,22 @@ ArrayInteiros[0] = 72;
 ArrayInteiros[1] = 73;
 ArrayInteiros[2] = 43;
 
-for (int i = 0; i < ArrayInteiros.Length; i++){
-    Console.WriteLine($"Posicao N {i} - {ArrayInteiros[i]}");
+Console.WriteLine("percorrendo com array com FOR");
+for(int contador = 0; contador < ArrayInteiros.Length; contador++) {
+    Console.WriteLine($"Posição N {contador}  - {ArrayInteiros[contador]}");
 }
+
+Console.WriteLine("percorrendo o array com FOREACH");
+
+int contadorForeach = 0;
+foreach(int valor in ArrayInteiros){
+    Console.WriteLine($"Posicao N {contadorForeach} - {valor}");
+    contadorForeach++;
+    Console.WriteLine(valor);
+}
+//for (int i = 0; i < ArrayInteiros.Length; i++){
+//    Console.WriteLine($"Posicao N {i} - {ArrayInteiros[i]}");
+//}
 
 /*string opcao;
 bool exibirMenu = true;
