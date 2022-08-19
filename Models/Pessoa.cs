@@ -10,6 +10,9 @@ namespace exemploFundamentos_dotnet.Models
         public string Nome { get; set; }
         public int Idade { get; set; }
 
+        /// <summary>
+        /// faz a pessoa se Apresentar
+        /// </summary>
         public void Apresentar() {
             Console.WriteLine($"Olá,meu nome é {Nome}, e tenho {Idade} anos");
         }

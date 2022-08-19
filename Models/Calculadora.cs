@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 namespace exemploFundamentos_dotnet.Models
 {
     public class Calculadora
-    {
+    {   
+        /// <summary>
+        /// Realiza uma soma de 2 numeros.
+        /// </summary>
+        /// <param name="x" > o primeiro numero inteiro para subtrair</param>
+        /// <param name="y" > o segundo numero inteiro para subtrair</param>
         public void Somar(int x, int y) { 
             Console.WriteLine($"{x} + {y} = {x + y}");
         }

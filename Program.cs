@@ -1,5 +1,21 @@
 ﻿using exemploFundamentos_dotnet.Models;
 
+// Instancia da classe pessoa
+Pessoa p = new Pessoa();
+
+//atrobui nome e idade a pessoa
+p.Nome = "Buta";
+p.Idade = 20;
+
+// faz a pessoa se Apresentar
+p.Apresentar();
+
+/*
+    linha 1
+    linha 2
+    linha 3
+*/
+
 List<string> listaString = new List<string>();
 
 listaString.Add("SP");
