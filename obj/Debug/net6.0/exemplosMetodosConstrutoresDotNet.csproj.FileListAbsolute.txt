@@ -1,0 +1,15 @@
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\bin\Debug\net6.0\exemplosMetodosConstrutoresDotNet.exe
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\bin\Debug\net6.0\exemplosMetodosConstrutoresDotNet.deps.json
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\bin\Debug\net6.0\exemplosMetodosConstrutoresDotNet.runtimeconfig.json
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\bin\Debug\net6.0\exemplosMetodosConstrutoresDotNet.dll
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\bin\Debug\net6.0\exemplosMetodosConstrutoresDotNet.pdb
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\exemplosMetodosConstrutoresDotNet.csproj.AssemblyReference.cache
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\exemplosMetodosConstrutoresDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\exemplosMetodosConstrutoresDotNet.AssemblyInfoInputs.cache
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\exemplosMetodosConstrutoresDotNet.AssemblyInfo.cs
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\exemplosMetodosConstrutoresDotNet.csproj.CoreCompileInputs.cache
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\exemplosMetodosConstrutoresDotNet.dll
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\refint\exemplosMetodosConstrutoresDotNet.dll
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\exemplosMetodosConstrutoresDotNet.pdb
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\exemplosMetodosConstrutoresDotNet.genruntimeconfig.cache
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\ref\exemplosMetodosConstrutoresDotNet.dll
