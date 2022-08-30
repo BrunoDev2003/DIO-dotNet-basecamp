@@ -26,6 +26,9 @@ namespace exemplosMetodosConstrutoresDotNet.Models
             }
         
         }
+
+        public string Sobrenome { get; set; }
+        public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
         public int Idade 
         {   get => _idade;
 
@@ -38,7 +41,7 @@ namespace exemplosMetodosConstrutoresDotNet.Models
         }
 
         public void Apresentar() {
-            Console.WriteLine($"Nome: {Nome}, Idade: {Idade}");
+            Console.WriteLine($"Nome: {Nome} {Sobrenome}, Idade: {Idade}");
         }
     }
 }
