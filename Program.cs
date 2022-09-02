@@ -2,13 +2,10 @@
 using exemplosMetodosConstrutoresDotNet.Models;
 
 
-Pessoa p1 = new Pessoa();
-p1.Nome = "Bruno";
-p1.Sobrenome = "Mendonça Gusmão";
+Pessoa p1 = new Pessoa(nome: "Artur",sobrenome: "Queiroz");
 
-Pessoa p2 = new Pessoa();
-p1.Nome = "Eduardo";
-p1.Sobrenome = "Queiroz";
+Pessoa p2 = new Pessoa(nome: "Bruno", sobrenome:"Gusmão");
+
 
 Curso cursoDoIngles = new Curso();
 cursoDoIngles.Nome = "ingles";
