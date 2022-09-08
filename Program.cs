@@ -1,6 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using exemplosMetodosConstrutoresDotNet.Models;
 
+string numero1 = "18";
+string numero2 = "19";
+
+string resultado = numero1 + numero2;
+
+Console.WriteLine(resultado);
 
 Pessoa p1 = new Pessoa(nome: "Artur",sobrenome: "Queiroz");
 
