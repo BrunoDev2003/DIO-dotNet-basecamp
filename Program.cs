@@ -1,5 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using exemplosMetodosConstrutoresDotNet.Models;
+using System.Globalization;
+
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+
+decimal valorMonetario = 82.40M;
+
+Console.WriteLine($"{valorMonetario:C}");
+Console.WriteLine(valorMonetario.ToString("C2", CultureInfo.CreateSpecificCulture("pt-BR")));
 
 string numero1 = "18";
 string numero2 = "19";
