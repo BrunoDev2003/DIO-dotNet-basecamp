@@ -2,6 +2,19 @@
 using exemplosMetodosConstrutoresDotNet.Models;
 using System.Globalization;
 
+DateTime data = DateTime.Now;
+
+string dataString = "2022-09-12 17:30";
+
+Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
+
+DateTime.TryParseExact(dataString, 
+                        "yyy-MM-dd HH:mm", 
+                        CultureInfo.InvariantCulture,
+                        DateTimeStyles.None, out DateTime data1);
+
+Console.WriteLine(data.ToShortTimeString());
+
 CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
 
 decimal valorMonetario = 82.40M;
