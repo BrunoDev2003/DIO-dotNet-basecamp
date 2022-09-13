@@ -13,7 +13,19 @@ DateTime.TryParseExact(dataString,
                         CultureInfo.InvariantCulture,
                         DateTimeStyles.None, out DateTime data1);
 
-Console.WriteLine(data.ToShortTimeString());
+// ou 
+
+bool sucesso = DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", 
+                                        CultureInfo.InvariantCulture,DateTimeStyles.None,out DateTime data2);
+                                        Console.WriteLine(data.ToShortTimeString());
+
+if (sucesso) {
+    Console.WriteLine($"Conversão com sucesso! Data: {data2}");
+} else {
+    Console.WriteLine($"{dataString} não é uma data válida");
+}
+
+Console.WriteLine(data);
 
 CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
 
