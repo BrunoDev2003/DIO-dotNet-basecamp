@@ -2,12 +2,17 @@
 using exemplosMetodosConstrutoresDotNet.Models;
 using System.Globalization;
 
+try {
+
 string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
 
 foreach(string linha in linhas) {
     Console.WriteLine(linha);
 }
 
+} catch (Exception ex) {
+    Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
+}
 DateTime data = DateTime.Now;
 
 string dataString = "2022-09-12 17:30";
