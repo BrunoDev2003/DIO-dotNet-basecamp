@@ -2,6 +2,9 @@
 using exemplosMetodosConstrutoresDotNet.Models;
 using System.Globalization;
 
+
+new exemploExcecao().Metodo1();
+
 try {
 
 string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
@@ -21,6 +24,8 @@ catch(DirectoryNotFoundException ex) {
 
 catch (Exception ex) {
     Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
+} finally {
+    Console.WriteLine("Chegou até aqui");
 }
 
 DateTime data = DateTime.Now;
