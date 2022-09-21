@@ -2,6 +2,17 @@
 using exemplosMetodosConstrutoresDotNet.Models;
 using System.Globalization;
 
+Stack<int> pilha = new Stack<int>();
+
+pilha.Push(4);
+pilha.Push(10);
+
+foreach(int item in pilha) {
+    Console.WriteLine(item);
+}
+
+Console.WriteLine($"Removendo o elemento do topo: {pilha.Pop()}");
+
 
 new exemploExcecao().Metodo1();
 
