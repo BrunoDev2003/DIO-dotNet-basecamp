@@ -2,6 +2,28 @@
 using exemplosMetodosConstrutoresDotNet.Models;
 using System.Globalization;
 
+
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+estados.Add("SP", "São Paulo");
+estados.Add("BA", "Bahia");
+estados.Add("MG", "Minas Gerais");
+
+foreach(var item in estados) {
+    Console.WriteLine($"Chave:{item.Key}, valor: {item.Value}");
+}
+
+estados.Remove("SP");
+
+string chave = "BA";
+Console.WriteLine($"Verificando o elemento: {chave}");
+
+if (estados.ContainsKey(chave)) {
+    Console.WriteLine($"Valoe existente: {chave}");
+}
+else {
+    Console.WriteLine($"valor não existe.É seguro adicionar a chave: {chave}");
+}
 Stack<int> pilha = new Stack<int>();
 
 pilha.Push(4);
