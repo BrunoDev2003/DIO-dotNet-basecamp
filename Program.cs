@@ -3,6 +3,16 @@ using exemplosMetodosConstrutoresDotNet.Models;
 using System.Globalization;
 
 
+(int Id, string Nome, string Sobrenome,decimal Altura) tupla = (1, "bruno","gusmão",1.80M);
+ValueTupla<int,string,string,decimal> outroExemploTupla = (1,"bruno","gusmão",1.80M);
+var outroExemploTuplaCreate = Tupla.Create(1,"bruno","gusmão",1.80M);
+
+Console.WriteLine($"Id:{tupla.Item1}");
+Console.WriteLine($"Nome:{tupla.Item2}");
+Console.WriteLine($"Sobrenome:{tupla.Item3}");
+Console.WriteLine($"Altura:{tupla.Item4}");
+
+
 Dictionary<string, string> estados = new Dictionary<string, string>();
 
 estados.Add("SP", "São Paulo");
