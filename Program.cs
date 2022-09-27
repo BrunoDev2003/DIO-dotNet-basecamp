@@ -3,6 +3,21 @@ using exemplosMetodosConstrutoresDotNet.Models;
 using System.Globalization;
 
 
+LeitorArquivo arquivo = new LeitorArquivo();
+
+var (sucesso, linhaArquivo, quantidadeLinhas) = arquivo.LerArquivo("Arquivo/arquivoLeitura.txt");
+
+if (sucesso) {
+    Console.WriteLine("Quantidade linhas do arquivo:" + quantidadeLinhas);
+    foreach(string linha in linhasArquivos) {
+        Console.WriteLine(linha);
+    }
+} else {
+    Console.WriteLine("Não foi possivel ler o arquivo");
+}
+
+
+
 (int Id, string Nome, string Sobrenome,decimal Altura) tupla = (1, "bruno","gusmão",1.80M);
 ValueTupla<int,string,string,decimal> outroExemploTupla = (1,"bruno","gusmão",1.80M);
 var outroExemploTuplaCreate = Tupla.Create(1,"bruno","gusmão",1.80M);
