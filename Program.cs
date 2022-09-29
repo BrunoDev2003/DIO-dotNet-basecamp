@@ -3,6 +3,15 @@ using exemplosMetodosConstrutoresDotNet.Models;
 using System.Globalization;
 
 
+Pessoa p1 = new Pessoa("Bruno", "Gusmão");
+
+(string nome, string sobrenome) = p1;
+
+Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
 LeitorArquivo arquivo = new LeitorArquivo();
 
 var (sucesso, linhaArquivo, quantidadeLinhas) = arquivo.LerArquivo("Arquivo/arquivoLeitura.txt");
