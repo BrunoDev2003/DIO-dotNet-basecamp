@@ -3,6 +3,16 @@ using exemplosMetodosConstrutoresDotNet.Models;
 using System.Globalization;
 
 
+
+int numero = 18;
+bool ehPar = false;
+
+// IF ternário
+
+ehPar = numero % 2 == 0;
+
+Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
+
 Pessoa p1 = new Pessoa("Bruno", "Gusmão");
 
 (string nome, string sobrenome) = p1;
