@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "g+yA4cuAPEmG095w1QdHG/aXJqS37LhM51zY2YXanuFlB7tMP2TXYVm/yvfVNJLKmlsQEdW1r8qN4M9Z24QJCQ==",
+  "dgSpecHash": "4YGm5fIl4S+IWUzEYxGwDNtn46rV3LNySW5tppGX3oyq0bNqxo2SGPf0uGVUnDwQo4TJwXZovYk8wrY/6X5hlw==",
   "success": true,
   "projectFilePath": "C:\\Users\\wwwbr\\exemplosMetodosConstrutoresDotNet\\exemplosMetodosConstrutoresDotNet.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\wwwbr\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
