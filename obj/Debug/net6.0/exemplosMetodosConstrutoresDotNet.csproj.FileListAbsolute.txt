@@ -13,3 +13,5 @@ C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\refint\exemplo
 C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\exemplosMetodosConstrutoresDotNet.pdb
 C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\exemplosMetodosConstrutoresDotNet.genruntimeconfig.cache
 C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\ref\exemplosMetodosConstrutoresDotNet.dll
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\wwwbr\exemplosMetodosConstrutoresDotNet\obj\Debug\net6.0\exemplosMetodosConstrutoresDotNet.csproj.CopyComplete
